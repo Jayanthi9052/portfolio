@@ -7,37 +7,41 @@
     <link href="style.css" rel="stylesheet"/>
 </head>
 
-<body>
-    <h1 id="hello">Hello</h1>
-    <h2 id="world">World</h2>
-    <header>This is header tag</header>
+<body style="margin: 5px;">
+    <!-- <h1 id="hello">Hello</h1>
+    <h2 id="world">World</h2> -->
+    <header id="header"><u>Portfolio</u></header>
     <main>
         <section>
             <section>
-                <h1>Introduction:</h1>
-                    <span><b>Name:</b> G Jayanthi</span><br>
-                    <span><b>college name:</b> G Pullaiah college</span><br>
-                    <span><b>course:</b> Btech</span><br>
+                <h1 class="one" id="header">Introduction:</h1>
+                    <span class="one"><b>Name:</b> G Jayanthi</span><br>
+                    <span class="one"><b>college name:</b> G Pullaiah college</span><br>
+                    <span class="one"><b>course:</b> Btech</span><br>
                 
-                <h3>Technical Proficiency:</h5>
-                    <span><b>Programming Languages:</b> Java, Python, Data Structures and Algorithms (DSA)</span><br>
-                    <span><b>Tools and Technologies:</b> Alteryx, SQL, Excel</span><br>
-                    <span><b>Database Management:</b> MySQL</span><br>
-                    <span><b>Development Tools: </b>Visual Studio Code</span>
-                <h3>Projects:</h5>
-                    <span>project 1</span><br>
-                    <span>project 2</span><br>
-                    <span>project 3</span><br>
+                <h3 class="one">Technical Proficiency:</h5>
+                    <span class="one"><b>Programming Languages:</b> Java, Python, Data Structures and Algorithms (DSA)</span><br>
+                    <span class="one"><b>Tools and Technologies:</b> Alteryx, SQL, Excel</span><br>
+                    <span class="one"><b>Database Management:</b> MySQL</span><br>
+                    <span class="one"><b>Development Tools: </b>Visual Studio Code</span>
+                <h3 class="one">Projects:</h5>
+                    <span class="one">project 1</span><br>
+                    <span class="one">project 2</span><br>
+                    <span class="one">project 3</span><br>
 
             </section>
-            <section>
-                <img src="https://icon-library.com/images/admin-icon-png/admin-icon-png-20.jpg" width="10%", height="10%"/>
+            <section id="one">
+                <img src="https://icon-library.com/images/admin-icon-png/admin-icon-png-20.jpg" width="50%", height="50%"/>
             </section>
             <section>
                 <form>
-                    <input placeholder="enter your name" type="text"><br/>
-                    <input placeholder="password" type="password"><br/>
-                    <input type="submit"/>
+                    <!-- <label>Enter your name:</label> -->
+                    <input id="two" placeholder="enter your name" type="text"><br/>
+                    <br>
+                    <!-- <label>Enter password:</label> -->
+                    <input id="two" placeholder="password" type="password"><br/>
+                    <br>
+                    <button id="button" type="button" >click me</button>
                 </form>
             </section>
             <select>
@@ -46,7 +50,7 @@
             </select>
             
         </section>
-        <footer>Thanks for visit</footer>
+        <footer id="footer">Thanks for visit</footer>
     </main>
 </body>
 
