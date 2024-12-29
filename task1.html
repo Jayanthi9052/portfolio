@@ -7,50 +7,81 @@
     <link href="style.css" rel="stylesheet"/>
 </head>
 
-<body style="margin: 5px;">
+<body >
     <!-- <h1 id="hello">Hello</h1>
     <h2 id="world">World</h2> -->
-    <header id="header"><u>Portfolio</u></header>
+    <!-- <header id="header"><u>Portfolio</u></header> -->
     <main>
         <section>
-            <section>
-                <h1 class="one" id="header">Introduction:</h1>
-                    <span class="one"><b>Name:</b> G Jayanthi</span><br>
-                    <span class="one"><b>college name:</b> G Pullaiah college</span><br>
-                    <span class="one"><b>course:</b> Btech</span><br>
-                
-                <h3 class="one">Technical Proficiency:</h5>
-                    <span class="one"><b>Programming Languages:</b> Java, Python, Data Structures and Algorithms (DSA)</span><br>
-                    <span class="one"><b>Tools and Technologies:</b> Alteryx, SQL, Excel</span><br>
-                    <span class="one"><b>Database Management:</b> MySQL</span><br>
-                    <span class="one"><b>Development Tools: </b>Visual Studio Code</span>
-                <h3 class="one">Projects:</h5>
-                    <span class="one">project 1</span><br>
-                    <span class="one">project 2</span><br>
-                    <span class="one">project 3</span><br>
+            <section style="background-color: #b258e9;">
+                <!-- <h1 class="one" id="header">Introduction:</h1> -->
+                 <h1 ><u>About Me</u></h2>
+                 <p class="name"><strong>G Jayanthi</strong></p>
+                 <p style="text-align: center;"> I am a Computer Science graduate from G Pullaiah College of Enginnering and Technology with hands-on experience in Python full-stack development. I am passionate about building innovative solutions and continuously improving my skills.</p>
+                </p></p>
+                 <h2 style="text-align: center;">Skills</h2>
+                 <ul style="text-align: center; list-style: none;">
+                    <li>Python, Java, C, DSA</li>
+                    <li>HTML, CSS, JS</li>
+                    <li>Django, MySQL</li>
+                 </ul>
+                 <h2 style="text-align: center;">Projects</h2>
+                 <div class="projects">
+                    <div class="box">
+                        <h3>Project Prism</h3>
+                        <p>An interactive review and feedback system for streamlining project evaluations.</p>
+                        <button class="button"><a href="https://github.com/Jayanthi9052/Report-generation-on-student-project-reviews" target="_blank">View Project</a></button>
+                    </div>
+                    <div class="box">
+                        <h3>Online Buss Pass Registration</h3>
+                        <p>A web application for seamless bus pass reservations via smartphones.</p>
+                        <button class="button"><a href="https://github.com/Jayanthi9052/Online-buspass-registration" target="_blank">View Project</a></button>
+                    </div>
 
+                 </div>
+                  
             </section>
-            <section id="one">
-                <img src="https://icon-library.com/images/admin-icon-png/admin-icon-png-20.jpg" width="50%", height="50%"/>
+
+            <section style="background-color:aquamarine;">
+                <div style="text-align: center; margin-bottom: 20px; color: black;">
+                    <img src="https://icon-library.com/images/admin-icon-png/admin-icon-png-20.jpg" style="width: 35%; height: auto;"/>
+                    <h2>Hobbies</h2>
+                    <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+                        <div style="text-align: center;">
+                            <img src="https://th.bing.com/th/id/OIP.0ND5UHzS1Rtpw0WRd2K-0AHaE7?rs=1&pid=ImgDetMain" />
+                            <p>Reading</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <img src="https://th.bing.com/th/id/OIP.BYQG_KZofFPweACctzvm3QHaE8?rs=1&pid=ImgDetMain" />
+                            <p>Coding</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <img src="https://th.bing.com/th/id/OIP.7KXbdcsH9BKcYhKmd8hymAHaEu?rs=1&pid=ImgDetMain"  />
+                            <p>Exploring Technologies</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- <p>Reading, Coding, Exploring Technologies</p> -->
             </section>
-            <section>
-                <form>
+
+            <section style="background-color:rgb(48, 48, 97) ">
+                <form class="contact" >
                     <!-- <label>Enter your name:</label> -->
-                    <input id="two" placeholder="enter your name" type="text"><br/>
-                    <br>
+                    <input id="two" placeholder="enter your name" type="text">
                     <!-- <label>Enter password:</label> -->
-                    <input id="two" placeholder="password" type="password"><br/>
-                    <br>
-                    <button id="button" type="button" >click me</button>
+                    <input id="two" placeholder="enter your email" type="email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button id="button" type="submit" >Submit</button>
                 </form>
             </section>
-            <select>
+            <!-- <select>
                 <option>mr</option>
                 <option>mrs</option>
-            </select>
+            </select> -->
             
         </section>
-        <footer id="footer">Thanks for visit</footer>
+        <footer ><marquee>Thanks for Visiting my portfolio!!!</marquee></footer>
     </main>
 </body>
 
