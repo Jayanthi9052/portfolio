@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 5px;
+    margin: 0px;
     padding:5px;
     color: #fff;
  }
@@ -30,6 +30,7 @@ li{
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+    /* flex-direction:column; */
 }
 .box{
     background: #8e44ad;
@@ -74,20 +75,27 @@ img{
     gap: 10px;
 }
 .contact input,.contact textarea{
-    width: 80%;
+    /* width: 80%; */
     max-width: 400px;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    width: 100%;
 
 }
 .contact button{
     padding: 10px 20px;
+     
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px; */
     border: none;
     border-radius: 5px;
     background-color: #1abc9c;
     color: #fff;
     cursor: pointer;
+    /* margin: auto;  button will be placed center with equal padding from left and right*/
 }
 .contact button:hover{
     background-color: #148f77;
